@@ -1,3 +1,7 @@
+### Format1  ###
+node_modules/
+node/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

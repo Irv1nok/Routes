@@ -8,7 +8,7 @@ class HomeCityForm(forms.Form):
 
 
 class CityForm(forms.ModelForm):
-    name = forms.CharField(widget=forms.TextInput(attrs={
+    name = forms.CharField(label='Город', widget=forms.TextInput(attrs={
         'class': 'form-control',
         'placeholder': 'Введите название города'
     }))
@@ -16,3 +16,4 @@ class CityForm(forms.ModelForm):
     class Meta:
         model = City
         fields = ('name', )
+
